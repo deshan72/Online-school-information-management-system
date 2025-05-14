@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+     <servlet>
+     	<servlet-name> InsertServelet</servlet-name>
+     	<servlet-class> SchoolPackage.InsertServelet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>InsertServelet</servlet-name>
+     	<url-pattern>/InsertServelet</url-pattern>
+     </servlet-mapping>
+     
+     
+     <servlet>
+     	<servlet-name> GetAllServelet</servlet-name>
+     	<servlet-class> SchoolPackage.GetAllServelet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>GetAllServelet</servlet-name>
+     	<url-pattern>/GetAllServelet</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name> UpdateServelet</servlet-name>
+     	<servlet-class> SchoolPackage.UpdateServelet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>UpdateServelet</servlet-name>
+     	<url-pattern>/UpdateServelet</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name> DeleteServelet</servlet-name>
+     	<servlet-class> SchoolPackage.DeleteServelet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>DeleteServelet</servlet-name>
+     	<url-pattern>/DeleteServelet</url-pattern>
+     </servlet-mapping>
+
+</web-app>
