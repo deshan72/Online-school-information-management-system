@@ -45,5 +45,41 @@
      	<servlet-name>DeleteServelet</servlet-name>
      	<url-pattern>/DeleteServelet</url-pattern>
      </servlet-mapping>
+    <servlet>
+  	<servlet-name>AttendenceInsertServlet</servlet-name>
+  	<servlet-class>schoolPackage.AttendenceInsertServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  	<servlet-name>AttendenceInsertServlet</servlet-name>
+  	<url-pattern>/AttendenceInsertServlet</url-pattern>
+</servlet-mapping>
 
+     
+     <servlet>
+     <servlet-name>AttendenceGetAllServlet</servlet-name>
+     <servlet-class>schoolPackage.AttendenceGetAllServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>AttendenceGetAllServlet</servlet-name>
+     	<url-pattern>/AttendenceGetAllServlet</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     <servlet-name>AttendenceUpdateServlet</servlet-name>
+     <servlet-class>schoolPackage.AttendenceUpdateServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>AttendenceUpdateServlet</servlet-name>
+     	<url-pattern>/AttendenceUpdateServlet</url-pattern>
+     </servlet-mapping>
+     
+          <servlet>
+     <servlet-name>AttendenceDeleteServlet</servlet-name>
+     <servlet-class>schoolPackage.AttendenceDeleteServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>AttendenceDeleteServlet</servlet-name>
+     	<url-pattern>/AttendenceDeleteServlet</url-pattern>
+     </servlet-mapping>
+     
 </web-app>
