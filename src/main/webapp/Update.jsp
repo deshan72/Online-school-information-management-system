@@ -83,7 +83,7 @@
                 <button type="submit" class="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg shadow transition-all duration-200">
                     <i class="fas fa-save mr-2"></i>Save Changes
                 </button>
-                <a href="display.jsp" class="bg-red-500 hover:bg-red-600 text-white px-6 py-2 rounded-lg shadow transition-all duration-200">
+                <a href="GetAllServelet" class="bg-red-500 hover:bg-red-600 text-white px-6 py-2 rounded-lg shadow transition-all duration-200">
                     <i class="fas fa-times mr-2"></i>Cancel
                 </a>
             </div>

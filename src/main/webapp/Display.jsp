@@ -36,7 +36,7 @@
                 <span class="text-gray-600 font-medium">
                     <i class="fas fa-user-circle mr-2"></i> Sachintha
                 </span>
-                <a href="logout.jsp" class="text-red-500 hover:text-red-700">
+                <a href="User.jsp" class="text-red-500 hover:text-red-700">
                     <i class="fas fa-sign-out-alt"></i> Logout
                 </a>
             </div>

@@ -6,9 +6,13 @@ import java.sql.DriverManager;
 
 public class DBConnection {
 	
-	private static String url = "jdbc:mysql://localhost:3306/school";
+	private static String url = "jdbc:mysql://localhost:3306/schoolinfromationmnagamentsystem";
 	private static String user = "root";
+<<<<<<< HEAD
 	private static String pass = "root";
+=======
+	private static String pass = "kevin";
+>>>>>>> branch 'master' of https://github.com/deshan72/Online-school-information-management-system.git
 	private static Connection con;
 	
 	
